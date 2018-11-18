@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".view.fragment.HomeFragment">
+    tools:context=".view.fragment.historyorder.HomeFragment">
 
         <android.support.v7.widget.RecyclerView
             android:padding="10dp"
@@ -16,11 +16,13 @@
         </android.support.v7.widget.RecyclerView>
 
         <Button
+            android:visibility="gone"
             android:id="@+id/bt_permit"
             android:background="@drawable/custom_buttom"
             android:text="Duyệt đơn"
             android:textColor="@color/colorMaterialWhite"
-            android:layout_width="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_width="150dp"
             android:layout_marginBottom="5dp"
             android:layout_height="38dp"/>
 

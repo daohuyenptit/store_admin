@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "260927450742",
+    "firebase_url": "https://doanstore-ab17f.firebaseio.com",
+    "project_id": "doanstore-ab17f",
+    "storage_bucket": "doanstore-ab17f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260927450742:android:dcac66c4e4138209",
+        "android_client_info": {
+          "package_name": "com.daohuyen.dell.storeadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260927450742-vjoau1irshe4jb6garf902kp86gdvunt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daohuyen.dell.storeadmin",
+            "certificate_hash": "90b22028f935b0581003899b1a631eae8c816291"
+          }
+        },
+        {
+          "client_id": "260927450742-mpqcljes2kjuqtenj2082q7jmaefl71r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaZ_u2HfiuOysBBxkwMW9SRS28foU3Eu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260927450742-mpqcljes2kjuqtenj2082q7jmaefl71r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

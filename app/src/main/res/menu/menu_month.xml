@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/jan"
+        android:title="tháng 1"/>
+    <item android:id="@+id/feb"
+        android:title="tháng 2"/>
+    <item android:id="@+id/mar"
+        android:title="tháng 3"/>
+    <item android:id="@+id/apr"
+        android:title="tháng 4"/>
+    <item android:id="@+id/may"
+        android:title="tháng 5"/>
+    <item android:id="@+id/jun"
+        android:title="tháng 6"/>
+    <item android:id="@+id/jul"
+        android:title="tháng 7"/>
+    <item android:id="@+id/aug"
+        android:title="tháng 8"/>
+    <item android:id="@+id/sep"
+        android:title="tháng 9"/>
+    <item android:id="@+id/oct"
+        android:title="tháng 10"/>
+    <item android:id="@+id/nov"
+        android:title="tháng 11"/>
+    <item android:id="@+id/dec"
+        android:title="tháng 12"/>
+
+</menu>

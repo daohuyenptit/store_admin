@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.daohuyen.dell.storeadmin.view.product_detail.ProductDetailActivity"
+    tools:showIn="@layout/activity_product_detail">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="48dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:padding="@dimen/pading_left">
+
+        <ImageView
+            android:id="@+id/img_product_detail"
+            android:layout_width="86dp"
+            android:layout_height="110dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/br_account" />
+
+        <TextView
+            android:id="@+id/tv_name_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@+id/img_product_detail"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Mỹ phẩm"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_cost_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_product"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/img_product_detail"
+            android:text="1.000.000 Đ"
+            android:textColor="@color/md_red_500"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/rating_product"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/rating_height"
+            android:layout_below="@+id/tv_cost_product"
+            android:layout_marginLeft="22dp"
+            android:layout_toRightOf="@+id/img_product_detail"
+            android:isIndicator="true"
+            android:rating="4.5"
+            app:mrb_fillBackgroundStars="true"
+            app:mrb_progressTint="@color/md_yellow_700" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginBottom="@dimen/view_margin"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:padding="@dimen/pading_left">
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:text="Mô tả sản phẩm"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin"/>
+        <TextView
+            android:id="@+id/tv_detail_product"
+            android:text="- Ohui x asiana airlines là sự kết hợp giữa kem lót và kem nền tạo nên một lớp trang điểm tự nhiên, mỏng mịn.\n – Độ che phủ khuyết điểm tuyệt vời chỉ với một lớp mỏng nhẹ, không hề tạo cảm giác giả tạo, nói đúng ra, vẻ đẹp nhẹ nhàng và tự nhiên như những cô gái tiếp viên hàng không. Phấn che được mụn, nám, tàn nhang,… "
+            android:padding="@dimen/pading_left"
+            android:layout_below="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_background_textview"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginBottom="@dimen/view_margin"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+
+
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

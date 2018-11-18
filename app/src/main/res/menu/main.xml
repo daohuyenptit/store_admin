@@ -6,4 +6,10 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:icon="@drawable/ic_add"
+        android:id="@+id/mn_add"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        app:showAsAction="always" />
 </menu>

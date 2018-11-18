@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.daohuyen.dell.store_admin">
+    package="com.daohuyen.dell.storeadmin">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -27,6 +27,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.product.addProduct.AddProductActivity" />
+        <activity android:name=".view.product.addProduct.ProductGroupActivity" />
+        <activity android:name=".view.product.addProduct.CategoryActivity" />
+        <activity android:name=".view.product_category.Product_CateoryActivity" />
+        <activity android:name=".view.product_detail.ProductDetailActivity" />
+        <activity android:name=".view.product.editProduct.EditActivity" />
+        <activity android:name=".view.main.StatisticsActivity" />
+        <activity android:name=".view.fragment.historyorder.HistoryActivity"></activity>
     </application>
 
 </manifest>

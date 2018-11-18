@@ -39,6 +39,9 @@
     <string name="still_not_recived_email">Chưa nhận được email ?</string>
     <string name="resend_email">Gửi lại</string>
     <string name="account">Tài khoản</string>
+    <string name="add">Thêm</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
     <string name="about_store">Thông tin của hàng</string>
     <string name="rate">Đánh giá</string>
     <string name="connect_fb">Kết nối với Facebook</string>
@@ -193,4 +196,12 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="storage">Bộ sưu tập</string>
+    <string name="photo">Máy ảnh</string>
+    <string name="day">Ngày</string>
+    <string name="month">Tháng</string>
+    <string name="all">Tất cả</string>
+    <string name="statistics">Thống kê</string>
+    <string name="inventory">Tồn kho</string>
+    <string name="bestseller">Bán chạy</string>
 </resources>
